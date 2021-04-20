@@ -11,14 +11,14 @@
         rel="stylesheet">
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.2.0/modern-normalize.min.css">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 
 <body class="page">
-    <header class="page-header page-header__size">
+    <header class="page-header page-header--size">
         <div class="container">
             <nav class="page-header__nav">
-                <a href="./index.html" class="logo list"><span class="logo__text">Web</span>Studio</a>
+                <a href="./index.html" class="logo page-header__logo--size list"><span class="logo__text">Web</span>Studio</a>
                 <ul class="site-nav list">
                     <li class="site-nav__item"><a href="./index.html"
                             class="site-nav__link site-nav__link--current list">Студия</a></li>
@@ -42,7 +42,7 @@
         </div>
     </header>
     <main>
-        <section class="hero hero__overlay">
+        <section class="hero hero--overlay">
             <div class="container">
                 <div class="hero__center">
                     <h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
@@ -52,7 +52,7 @@
                     <div class="modal">
                         <p></p>
                         <button type="button" class="modal__button-close list list-border" data-modal-close>
-                            <svg class="button-close__icon" width="11" height="11">
+                            <svg class="modal__icon" width="11" height="11">
                                 <use href="./images/icons.svg#close"></use>
                             </svg>
                         </button>
@@ -155,7 +155,7 @@
                 </ul>
             </div>
         </section>
-        <section class="section jobs">
+        <section class="section section-jobs">
             <div class="container">
                 <h2 class="section__title">Чем мы занимаемся</h2>
                 <ul class="section-jobs__list list">
